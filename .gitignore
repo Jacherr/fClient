@@ -1,0 +1,5 @@
+node_modules
+JS
+**/*.js
+test.*
+!docs/assets/js
