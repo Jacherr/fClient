@@ -1,6 +1,6 @@
 {
   "name": "fapi-client",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "A wrapper over the fAPI REST API.",
   "main": "JS/index.js",
   "scripts": {
