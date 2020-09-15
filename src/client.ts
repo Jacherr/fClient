@@ -15,7 +15,7 @@ import { FapiError, RatelimitError } from './errors';
 export interface ClientOptions {
     baseUrl?: string,
     auth?: string,
-    timeout?: number,
+    timeout?: number
 }
 
 const defaultSettings: RequestSettings = {
@@ -232,12 +232,16 @@ export class Client extends EventEmitter {
       return this.requestImageFromImage(Api.Routes._9GAG, image);
     }
 
-    public adidias (image: string): Promise<Buffer> {
-      return this.requestImageFromImage(Api.Routes.ADIDIAS, image);
+    public adidas (image: string): Promise<Buffer> {
+      return this.requestImageFromImage(Api.Routes.ADIDAS, image);
     }
 
     public adminWalk (image: string): Promise<Buffer> {
       return this.requestImageFromImage(Api.Routes.ADW, image);
+    }
+
+    public aiMagik (image: string) {
+      return this.requestImageFromImage(Api.Routes.AIMAGIK, image);
     }
 
     public ajit (image: string): Promise<Buffer> {
@@ -975,6 +979,10 @@ export class Client extends EventEmitter {
 
     public uk (image: string): Promise<Buffer> {
       return this.requestImageFromImage(Api.Routes.UK, image);
+    }
+
+    public unmagik (image: string) {
+      return this.requestImageFromImage(Api.Routes.UNMAGIK, image);
     }
 
     public urbanDictionary (query: string): Promise<ReturnTypes.UrbanDictionary> {

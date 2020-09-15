@@ -9,8 +9,9 @@ export const Base = 'https://fapi.wrmsr.io';
 export enum Routes {
     _4CHAN = '/4chan',
     _9GAG = '/9gag',
-    ADIDIAS = '/adidas',
+    ADIDAS = '/adidas',
     ADW = '/adminwalk',
+    AIMAGIK = '/ai_magik',
     AJIT = '/ajitpai',
     AMERICA = '/america',
     ANALYSIS = '/analysis',
@@ -122,6 +123,7 @@ export enum Routes {
     TRUMP = '/trump',
     UGLY = '/ugly',
     UK = '/uk',
+    UNMAGIK = '/unmagik',
     URBANDICTIONARY = '/urbandictionary',
     URLIFY = '/urlify',
     USSR = '/ussr',
