@@ -15,7 +15,7 @@ import { FapiError, RatelimitError } from './errors';
 export interface ClientOptions {
     baseUrl?: string,
     auth?: string,
-    timeout?: number
+    timeout?: number,
 }
 
 const defaultSettings: RequestSettings = {
