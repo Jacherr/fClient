@@ -1,3 +1,7 @@
+# Archived
+
+This project is now archived because fAPI is no longer available.
+
 # fClient
 
 **A REST client that wraps the fAPI image manipulation API.**
